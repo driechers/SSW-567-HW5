@@ -1,0 +1,30 @@
+************* Module classify
+C:  8, 0: Exactly one space required after comma
+    x = max([a,b,c])
+              ^ (bad-whitespace)
+C:  8, 0: Exactly one space required after comma
+    x = max([a,b,c])
+                ^ (bad-whitespace)
+C: 10, 0: Exactly one space required after comma
+        a,c = c,a
+         ^ (bad-whitespace)
+C: 10, 0: Exactly one space required after comma
+        a,c = c,a
+               ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+        b,c = c,b
+         ^ (bad-whitespace)
+C: 12, 0: Exactly one space required after comma
+        b,c = c,b
+               ^ (bad-whitespace)
+C:  1, 0: Missing module docstring (missing-docstring)
+C:  6, 0: Argument name "a" doesn't conform to snake_case naming style (invalid-name)
+C:  6, 0: Argument name "b" doesn't conform to snake_case naming style (invalid-name)
+C:  6, 0: Argument name "c" doesn't conform to snake_case naming style (invalid-name)
+C:  6, 0: Missing function docstring (missing-docstring)
+C:  8, 4: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+R:  6, 0: Too many return statements (7/6) (too-many-return-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 4.35/10 (previous run: 8.26/10, -3.91)
+
