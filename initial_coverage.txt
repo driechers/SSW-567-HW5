@@ -1,0 +1,79 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.5, pytest-5.1.2, py-1.8.0, pluggy-0.12.0
+rootdir: /home/daniel/git/SSW-567-HW5
+plugins: cov-2.7.1
+collected 10 items
+
+test_classify.py ..........                                              [100%]
+
+----------- coverage: platform linux, python 3.6.5-final-0 -----------
+Name                                                                     Stmts   Miss  Cover
+--------------------------------------------------------------------------------------------
+classify.py                                                                 25      2    92%
+test_classify.py                                                            22      0   100%
+/usr/local/lib/python3.6/dist-packages/_pytest/_argcomplete.py              34     33     3%
+/usr/local/lib/python3.6/dist-packages/_pytest/_code/code.py               608    595     2%
+/usr/local/lib/python3.6/dist-packages/_pytest/_code/source.py             210    203     3%
+/usr/local/lib/python3.6/dist-packages/_pytest/assertion/__init__.py        68     59    13%
+/usr/local/lib/python3.6/dist-packages/_pytest/assertion/rewrite.py        572    498    13%
+/usr/local/lib/python3.6/dist-packages/_pytest/cacheprovider.py            228    192    16%
+/usr/local/lib/python3.6/dist-packages/_pytest/capture.py                  458    385    16%
+/usr/local/lib/python3.6/dist-packages/_pytest/compat.py                   138    102    26%
+/usr/local/lib/python3.6/dist-packages/_pytest/config/__init__.py          632    531    16%
+/usr/local/lib/python3.6/dist-packages/_pytest/config/argparsing.py        229    186    19%
+/usr/local/lib/python3.6/dist-packages/_pytest/debugging.py                191    183     4%
+/usr/local/lib/python3.6/dist-packages/_pytest/doctest.py                  303    294     3%
+/usr/local/lib/python3.6/dist-packages/_pytest/faulthandler.py              43     33    23%
+/usr/local/lib/python3.6/dist-packages/_pytest/fixtures.py                 726    584    20%
+/usr/local/lib/python3.6/dist-packages/_pytest/helpconfig.py               121    112     7%
+/usr/local/lib/python3.6/dist-packages/_pytest/junitxml.py                 338    336     1%
+/usr/local/lib/python3.6/dist-packages/_pytest/logging.py                  314    209    33%
+/usr/local/lib/python3.6/dist-packages/_pytest/main.py                     409    243    41%
+/usr/local/lib/python3.6/dist-packages/_pytest/mark/__init__.py             80     66    18%
+/usr/local/lib/python3.6/dist-packages/_pytest/mark/evaluate.py             90     78    13%
+/usr/local/lib/python3.6/dist-packages/_pytest/mark/structures.py          172    155    10%
+/usr/local/lib/python3.6/dist-packages/_pytest/monkeypatch.py              146    134     8%
+/usr/local/lib/python3.6/dist-packages/_pytest/nodes.py                    202    141    30%
+/usr/local/lib/python3.6/dist-packages/_pytest/nose.py                      20      9    55%
+/usr/local/lib/python3.6/dist-packages/_pytest/pastebin.py                  57     56     2%
+/usr/local/lib/python3.6/dist-packages/_pytest/pathlib.py                  196    183     7%
+/usr/local/lib/python3.6/dist-packages/_pytest/python.py                   785    618    21%
+/usr/local/lib/python3.6/dist-packages/_pytest/reports.py                  223    194    13%
+/usr/local/lib/python3.6/dist-packages/_pytest/resultlog.py                 67     65     3%
+/usr/local/lib/python3.6/dist-packages/_pytest/runner.py                   251    144    43%
+/usr/local/lib/python3.6/dist-packages/_pytest/setuponly.py                 47     46     2%
+/usr/local/lib/python3.6/dist-packages/_pytest/setupplan.py                 12     11     8%
+/usr/local/lib/python3.6/dist-packages/_pytest/skipping.py                  96     67    30%
+/usr/local/lib/python3.6/dist-packages/_pytest/stepwise.py                  58     46    21%
+/usr/local/lib/python3.6/dist-packages/_pytest/terminal.py                 709    547    23%
+/usr/local/lib/python3.6/dist-packages/_pytest/tmpdir.py                    75     68     9%
+/usr/local/lib/python3.6/dist-packages/_pytest/unittest.py                 190    181     5%
+/usr/local/lib/python3.6/dist-packages/_pytest/warnings.py                  66     48    27%
+/usr/local/lib/python3.6/dist-packages/attr/converters.py                   27     25     7%
+/usr/local/lib/python3.6/dist-packages/importlib_metadata/__init__.py      181    176     3%
+/usr/local/lib/python3.6/dist-packages/importlib_metadata/_compat.py        21     20     5%
+/usr/local/lib/python3.6/dist-packages/more_itertools/more.py              667    657     1%
+/usr/local/lib/python3.6/dist-packages/pluggy/_tracing.py                   59     49    17%
+/usr/local/lib/python3.6/dist-packages/pluggy/callers.py                   122     86    30%
+/usr/local/lib/python3.6/dist-packages/pluggy/hooks.py                     177    103    42%
+/usr/local/lib/python3.6/dist-packages/pluggy/manager.py                   182    140    23%
+/usr/local/lib/python3.6/dist-packages/py/_builtin.py                      112     78    30%
+/usr/local/lib/python3.6/dist-packages/py/_code/__init__.py                  0      0   100%
+/usr/local/lib/python3.6/dist-packages/py/_code/code.py                    524    408    22%
+/usr/local/lib/python3.6/dist-packages/py/_error.py                         52     49     6%
+/usr/local/lib/python3.6/dist-packages/py/_io/__init__.py                    0      0   100%
+/usr/local/lib/python3.6/dist-packages/py/_io/capture.py                   266    215    19%
+/usr/local/lib/python3.6/dist-packages/py/_io/terminalwriter.py            266    159    40%
+/usr/local/lib/python3.6/dist-packages/py/_path/common.py                  274    186    32%
+/usr/local/lib/python3.6/dist-packages/py/_path/local.py                   690    570    17%
+/usr/local/lib/python3.6/dist-packages/py/_vendored_packages/apipkg.py     148    129    13%
+/usr/local/lib/python3.6/dist-packages/py/_xmlgen.py                       170    168     1%
+/usr/local/lib/python3.6/dist-packages/pytest_cov/compat.py                 19     15    21%
+/usr/local/lib/python3.6/dist-packages/pytest_cov/embed.py                  76     70     8%
+/usr/local/lib/python3.6/dist-packages/pytest_cov/engine.py                183    170     7%
+/usr/local/lib/python3.6/dist-packages/pytest_cov/plugin.py                169    153     9%
+--------------------------------------------------------------------------------------------
+TOTAL                                                                    13596  11263    17%
+
+
+============================== 10 passed in 2.26s ==============================
